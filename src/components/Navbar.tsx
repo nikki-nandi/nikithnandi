@@ -35,12 +35,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <motion.div 
-            className="flex-shrink-0"
-            whileHover={{ scale: 1.05 }}
-          >
+          <motion.div className="flex-shrink-0" whileHover={{ scale: 1.05 }}>
             <span className="text-xl font-bold heading-gradient">
-              Nikith Nandi 
+              Nikith Nandi
             </span>
           </motion.div>
 
@@ -91,14 +88,18 @@ const Navbar = () => {
             >
               <Mail className="w-4 h-4" />
             </motion.a>
-            <Button 
-              variant="outline" 
-              size="sm" 
-              className="glass-card border-primary/30 hover:glow-soft"
-            >
-              <Download className="w-4 h-4 mr-2" />
-              Resume
-            </Button>
+
+            {/* ✅ Resume Download Button */}
+            <a href="/Nikith_Resume.pdf" download="Nikith_Resume.pdf">
+              <Button
+                variant="outline"
+                size="sm"
+                className="glass-card border-primary/30 hover:glow-soft"
+              >
+                <Download className="w-4 h-4 mr-2" />
+                Resume
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -135,14 +136,17 @@ const Navbar = () => {
               </a>
             ))}
             <div className="flex items-center space-x-4 px-3 py-2">
-              <Button 
-                variant="outline" 
-                size="sm" 
-                className="glass-card border-primary/30"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                Resume
-              </Button>
+              {/* ✅ Mobile Resume Button */}
+              <a href="/Nikith_Resume.pdf" download="Nikith_Resume.pdf">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="glass-card border-primary/30"
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  Resume
+                </Button>
+              </a>
             </div>
           </div>
         </motion.div>
