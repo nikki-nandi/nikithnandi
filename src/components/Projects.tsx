@@ -17,7 +17,7 @@ const Projects = () => {
       image: '/lovable-uploads/fd825c09-f87a-4581-9980-d336407b2b20.png',
       tags: ['Python', 'Streamlit', 'ML', 'IoT'],
       github: 'https://github.com/nikki-nandi/DIGITAL-TWIN-SMART-METERING',
-      demo: '#',
+      demo: 'https://smart-meter-4fid.onrender.com',
       category: 'AI/ML'
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       image: '/lovable-uploads/f4e354b5-ce2e-4e4f-8351-4598446f3d74.png',
       tags: ['Python', 'Pandas', 'ISRO APIs', 'Remote Sensing'],
       github: 'https://github.com/nikki-nandi/ISRO-FINAL.git',
-      demo: '#',
+      demo: 'https://isro-final-prototype.onrender.com',
       category: 'Computer Vision'
     },
     {
@@ -34,8 +34,8 @@ const Projects = () => {
       description: 'Advanced CNN + LSTM model for detecting manipulated videos and ensuring digital media authenticity.',
       image: '/lovable-uploads/facf9518-85ef-467e-8ce1-966fdc5264cb.png',
       tags: ['TensorFlow', 'OpenCV', 'CNN', 'LSTM'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/nikki-nandi/ISRO-FINAL.git',
+      demo: 'https://smart-meter-4fid.onrender.com',
       category: 'Computer Vision'
     },
     {
@@ -43,8 +43,8 @@ const Projects = () => {
       description: 'Blockchain-powered ride sharing platform with EV filters and AI-driven smart contract automation.',
       image: '/lovable-uploads/481ea639-2793-42fc-9560-67b32d02003f.png',
       tags: ['Solidity', 'MongoDB', 'FastAPI', 'Web3'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/nikki-nandi/DIGITAL-TWIN-SMART-METERING',
+      demo: 'https://isro-final-prototype.onrender.com',
       category: 'Blockchain'
     },
     {
@@ -52,8 +52,8 @@ const Projects = () => {
       description: 'NLP model with BIO tagging for real-time disaster tweet detection and emergency response.',
       image: '/lovable-uploads/8e550830-46eb-4d57-a6c6-fa9134265c1a.png',
       tags: ['Python', 'Scikit-learn', 'NLP', 'BIO Tagging'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/nikki-nandi/DIGITAL-TWIN-SMART-METERING',
+      demo: 'https://smart-meter-4fid.onrender.com',
       category: 'NLP'
     },
   ];
